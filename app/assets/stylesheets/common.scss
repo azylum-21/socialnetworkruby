@@ -21,14 +21,34 @@ html,body {
 }
 
 .text-le {
-text-align: left;
+	text-align: left;
 }
 
 .big-padding a {
-color: white;
+	color: white;
 }
 
-.mdl-textfield .is-focused .mdl-textfield__input {
-    border-color: black !important;
-    box-shadow: none;
+.button-large {
+	width: 90%;
+}
+.is-dirty .mdl-textfield__label{
+	color: #DFF6FB;
+}
+
+.mdl-textfield.is-focused .mdl-textfield__label {
+    color: #DFF6FB;
+}
+
+.mdl-textfield__label:after{
+    background-color: #DFF6FB;
+}
+.mdl-textfield--floating-label.is-focused .mdl-textfield__label,.mdl-textfield--floating-label.is-dirty .mdl-textfield__label,.mdl-textfield--floating-label.has-placeholder .mdl-textfield__label{
+	color: #DFF6FB;
+	}
+
+.mdl-button--raised.mdl-button--colored {
+	background-color: #BB6082;
+}
+.mdl-button--raised.mdl-button--colored:hover {
+	background-color: #b56770;
 }
