@@ -1,0 +1,34 @@
+.full-height {
+	height: 100%;
+}
+.no-margin {
+	margin: 0;
+}
+
+.big-padding {
+	padding: 2em 1.5em;
+}
+html,body {
+	height: 100%;
+}
+
+.top-space {
+	margin-top: 1em;
+}
+
+.undeline {
+	text-decoration: underline;
+}
+
+.text-le {
+text-align: left;
+}
+
+.big-padding a {
+color: white;
+}
+
+.mdl-textfield .is-focused .mdl-textfield__input {
+    border-color: black !important;
+    box-shadow: none;
+}

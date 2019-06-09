@@ -22,6 +22,9 @@ class Users::OmniauthCallbacksController < ApplicationController
 		end
 	end
 
+def failure
+	redirect_to new_user_session_path, notice: "Erron al hacer login intentalo de nuevo"
+end
 
 	private
 	def user_params
