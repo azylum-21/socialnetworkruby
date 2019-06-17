@@ -4,9 +4,12 @@
 	<title>Shelter</title>
 	<%= csrf_meta_tags %>
 	<%= action_cable_meta_tag %>
-<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-blue.min.css" />
+	<meta name="turbolinks-visit-control" content="reload">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-blue.min.css" />
 	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
 	<script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+	<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 	<%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
 
 

@@ -25,30 +25,48 @@ html,body {
 }
 
 .big-padding a {
-	color: white;
+	color: #088AC7;
+	font-family: 'Lato';
+
 }
 
 .button-large {
 	width: 90%;
-}
-.is-dirty .mdl-textfield__label{
-	color: #DFF6FB;
+	text-transform: capitalize;
 }
 
 .mdl-textfield.is-focused .mdl-textfield__label {
-    color: #DFF6FB;
+	color: #088AC7;
 }
 
 .mdl-textfield__label:after{
-    background-color: #DFF6FB;
+	background-color: #088AC7;
 }
 .mdl-textfield--floating-label.is-focused .mdl-textfield__label,.mdl-textfield--floating-label.is-dirty .mdl-textfield__label,.mdl-textfield--floating-label.has-placeholder .mdl-textfield__label{
-	color: #DFF6FB;
-	}
+	color: #088AC7;
+}
 
 .mdl-button--raised.mdl-button--colored {
-	background-color: #BB6082;
+	background-color: #088AC7;
+	border-radius: 5px;
+	height: 40px;
 }
+
 .mdl-button--raised.mdl-button--colored:hover {
-	background-color: #b56770;
+	background: rgba(0,0,0,0);
+	color: #088AC7;
+	box-shadow: inset 0 0 0 2px #088AC7;
+}
+
+.shelter {
+	border-radius: 15px;	
+	-webkit-box-shadow: 10px 10px 7px -6px rgba(54,51,51,0.54);
+	-moz-box-shadow: 10px 10px 7px -6px rgba(54,51,51,0.54);
+	box-shadow: 10px 10px 7px -6px rgba(54,51,51,0.54);
+}
+
+.shelter h1{
+	font-family: 'Lato';
+	font-weight: 300;
+
 }
